@@ -11,7 +11,7 @@ const AddToDo = (props) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    props.item(item);
+    props.getItem(item);
     console.log(item)
   };
 
